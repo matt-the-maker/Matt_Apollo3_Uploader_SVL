@@ -62,6 +62,14 @@ Modified: Juy 22 2019
 //*****************************************************************************
 #define SVL_VERSION_NUMBER 0x05
 
+typedef struct {
+    uint32_t magic_number;
+    uint32_t length;
+    uint32_t version;
+    uint32_t ready;
+    uint32_t checksum;
+} new_image_header;
+
 // ****************************************
 //
 // Bootloader Options
@@ -73,6 +81,13 @@ Modified: Juy 22 2019
 #define BL_TX_PAD 48                      // TX pad for BL_UART_INST
 #define USERCODE_OFFSET (0xC000 + 0x4000) // location in flash to begin storing user's code (Linker script needs to be adjusted to offset user's flash to this address)
 #define FRAME_BUFFER_SIZE 512             // maximum number of 4-byte words that can be transmitted in a single frame packet
+#define CURRENT_IMAGE_HEADER_LOCATION (USERCODE_OFFSET - sizeof(new_image_header))
+
+#define NEW_IMAGE_HEADER_LOCATION (0x80000)
+
+#define BLOCK_ARRAY (IMAGE_HEADER_LOCATION)
+
+#define SECOND_IMAGE_LOCATION (0x90000)
 
 // ****************************************
 //
@@ -130,6 +145,8 @@ uint8_t handle_frame_packet(svl_packet_t *packet, uint32_t *p_frame_address, uin
 void app_start(void);
 void debug_printf(char *fmt, ...);
 
+uint8_t update_from_flash(void);
+
 //*****************************************************************************
 //
 // Globals
@@ -173,6 +190,14 @@ int main(void)
     baud_valid = detect_baud_rate(&bl_baud); // Detects the baud rate. Returns true if a valid baud rate was found
     if (baud_valid == false)
     {
+        new_image_header * new_image = (new_image_header*)NEW_IMAGE_HEADER_LOCATION;
+        //new_image_header * current_image = (new_image_header*)CURRENT_IMAGE_HEADER_LOCATION;
+        
+        if((new_image->ready == 0xbeef) && (new_image->magic_number == 0xbeeeef))
+        {
+            update_from_flash();
+        }
+        
         app_start(); // w/o valid baud rate jump t the app
     }
 
@@ -492,6 +517,8 @@ void start_uart_bl(uint32_t baud)
     svl_packet_link_write_fn(svl_uart_write_byte, hUART_bl);
 }
 
+
+
 // ****************************************
 //
 // Bootload phase
@@ -564,8 +591,37 @@ void enter_bootload(void)
             continue;
         }
     }
-
+    
+    
     // finish bootloading
+}
+
+
+// ****************************************
+//
+// Handle a frame packet
+//
+// ****************************************
+#define FLASH_PAYLOAD_SIZE 512
+
+uint8_t update_from_flash(void)
+{
+    new_image_header * new_image = (new_image_header*)NEW_IMAGE_HEADER_LOCATION;
+    uint16_t last_page_erased = 0;
+    
+    svl_packet_t svl_packet_flash_frame = {CMD_FRAME, (uint8_t *)SECOND_IMAGE_LOCATION, FLASH_PAYLOAD_SIZE, FLASH_PAYLOAD_SIZE};
+    
+    for(int itr = 0; itr < new_image->length; itr= itr + FLASH_PAYLOAD_SIZE)
+    {
+        handle_frame_packet(&svl_packet_flash_frame, (uint32_t*)itr + SECOND_IMAGE_LOCATION, &last_page_erased);
+    }
+    
+    new_image_header * new_image = (new_image_header*)NEW_IMAGE_HEADER_LOCATION;
+    
+    uint32_t data[] = {0x0};
+    am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, data, (uint32_t *)(&(new_image->ready)), 1);
+    
+    return 0;
 }
 
 // ****************************************
@@ -653,6 +709,8 @@ void app_start(void)
     // #endif // DEBUG_PRINT_APP
     // #endif // DEBUG
 
+    
+    
     void *entryPoint = (void *)(*((uint32_t *)(USERCODE_OFFSET + 4)));
     debug_printf("\nJump to App at 0x%08X\n\n", (uint32_t)entryPoint);
     am_util_delay_ms(10); // Wait for prints to complete

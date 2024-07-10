@@ -2,6 +2,7 @@
 #define _SVL_RINGBUF_H_
 
 #include "stdio.h"
+#include "stdint.h"
 
 typedef struct _art_svl_ringbuf_t {
     uint8_t*        buf;

@@ -1,0 +1,1033 @@
+Archive member included to satisfy reference by file (symbol)
+
+/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+                              ../gcc/redboard_artemis/bin/main.o (memset)
+/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+                              ../gcc/redboard_artemis/bin/am_util_stdio.o (__aeabi_d2f)
+/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              ../gcc/redboard_artemis/bin/svl_utils.o (__aeabi_uldivmod)
+/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                              /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                              /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+                              ../gcc/redboard_artemis/bin/svl_utils.o (am_hal_burst_mode_initialize)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_cachectrl_config)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_clkgen_control)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_flash_page_erase)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_gpio_pinconfig)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_interrupt_master_enable)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+                              /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o) (am_hal_pwrctrl_blebuck_trim)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_reset_control)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_stimer_config)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_sysctrl_sleep)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                              ../gcc/redboard_artemis/bin/main.o (am_hal_uart_initialize)
+/Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+                              /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o) (am_hal_queue_init)
+
+Allocating common symbols
+Common symbol       size              file
+
+g_am_hal_uart_states
+                    0xc8              /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/main.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/main.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/main.o
+ .bss.hUART_debug
+                0x0000000000000000        0x4 ../gcc/redboard_artemis/bin/main.o
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .text.am_util_delay_cycles
+                0x0000000000000000       0x16 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .bss.g_pfnCharPrint
+                0x0000000000000000        0x4 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .bss.g_prfbuf  0x0000000000000000      0x100 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .bss.g_bTxtXlate
+                0x0000000000000000        0x1 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.am_util_stdio_printf_init
+                0x0000000000000000       0x20 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.am_util_stdio_strtoul
+                0x0000000000000000      0x108 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.divu64_10
+                0x0000000000000000      0x1f8 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.ndigits_in_u64
+                0x0000000000000000       0x42 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.ndigits_in_i64
+                0x0000000000000000       0x38 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.ndigits_in_hex
+                0x0000000000000000       0x52 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.decstr_to_int
+                0x0000000000000000       0x8c ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.uint64_to_str
+                0x0000000000000000       0x8e ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.uint64_to_hexstr
+                0x0000000000000000       0xc6 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.simple_strlen
+                0x0000000000000000       0x36 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.padbuffer
+                0x0000000000000000       0x4a ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.am_util_stdio_textmode_set
+                0x0000000000000000       0x28 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.ftoa     0x0000000000000000      0x204 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.am_util_stdio_vsprintf
+                0x0000000000000000      0x624 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.am_util_stdio_sprintf
+                0x0000000000000000       0x2c ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.am_util_stdio_printf
+                0x0000000000000000       0x48 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .rodata        0x0000000000000000       0x13 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text.am_util_stdio_terminal_clear
+                0x0000000000000000       0x14 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .debug_info    0x0000000000000000      0x8b5 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .debug_abbrev  0x0000000000000000      0x23a ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .debug_aranges
+                0x0000000000000000       0xa0 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .debug_rnglists
+                0x0000000000000000       0x7a ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .debug_line    0x0000000000000000      0xa18 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .debug_str     0x0000000000000000      0x557 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .comment       0x0000000000000000       0x41 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .debug_frame   0x0000000000000000      0x2ec ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .ARM.attributes
+                0x0000000000000000       0x34 ../gcc/redboard_artemis/bin/am_util_stdio.o
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_packet.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_packet.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_packet.o
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_uart.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_uart.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_uart.o
+ .text.svl_uart_print
+                0x0000000000000000       0x36 ../gcc/redboard_artemis/bin/svl_uart.o
+ .text          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_utils.o
+ .data          0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_utils.o
+ .bss           0x0000000000000000        0x0 ../gcc/redboard_artemis/bin/svl_utils.o
+ .text          0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .data          0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .bss           0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .text          0x0000000000000000       0xa0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .bss           0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_line_str
+                0x0000000000000000       0xd7 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000000000       0x24 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .ARM.attributes
+                0x0000000000000000       0x22 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_arm_truncdfsf2.o)
+ .data          0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .text          0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab.text.__udivmoddi4
+                0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .text.am_hal_cachectrl_disable
+                0x0000000000000000       0x30 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .text.am_hal_cachectrl_control
+                0x0000000000000000      0x2f4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .text.am_hal_cachectrl_status_get
+                0x0000000000000000       0x24 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_clkout_enable
+                0x0000000000000000       0x48 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_enable
+                0x0000000000000000       0x1c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_disable
+                0x0000000000000000       0x20 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_clear
+                0x0000000000000000       0x18 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_status_get
+                0x0000000000000000       0x1c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text.am_hal_clkgen_interrupt_set
+                0x0000000000000000       0x18 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_mass_erase
+                0x0000000000000000        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_clear_bits
+                0x0000000000000000       0x20 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_program_info
+                0x0000000000000000       0x60 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_erase_info
+                0x0000000000000000        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_erase_main_plus_info
+                0x0000000000000000        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_erase_main_plus_info_both_instances
+                0x0000000000000000        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_recovery
+                0x0000000000000000        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_delay_status_change
+                0x0000000000000000       0x50 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_customer_info_signature_check
+                0x0000000000000000       0x54 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_signature_set
+                0x0000000000000000       0xbc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_erase_disable
+                0x0000000000000000       0xe8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_erase_disable_check
+                0x0000000000000000       0x64 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_program_disable
+                0x0000000000000000       0xf0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_info_program_disable_get
+                0x0000000000000000       0x64 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_flash_enable
+                0x0000000000000000       0xe8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_flash_enable_check
+                0x0000000000000000       0x64 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_sram_enable
+                0x0000000000000000       0xe8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_wipe_sram_enable_check
+                0x0000000000000000       0x64 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_swo_disable
+                0x0000000000000000       0xe8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_swo_disable_check
+                0x0000000000000000       0x64 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_debugger_disable
+                0x0000000000000000       0xe8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_debugger_disable_check
+                0x0000000000000000       0x60 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_copy_protect_set
+                0x0000000000000000      0x118 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_copy_protect_check
+                0x0000000000000000       0xa8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_write_protect_set
+                0x0000000000000000      0x118 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_write_protect_check
+                0x0000000000000000       0xa8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text.am_hal_flash_load_ui32
+                0x0000000000000000        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .rodata.g_am_hal_flash
+                0x0000000000000000       0x60 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .rodata.ui32SramMaxAddr
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_fast_pinconfig
+                0x0000000000000000      0x378 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_state_read
+                0x0000000000000000       0x6c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_state_write
+                0x0000000000000000       0x88 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_status_get
+                0x0000000000000000       0x40 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_register
+                0x0000000000000000       0x20 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_register_adv
+                0x0000000000000000       0x30 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.am_hal_gpio_interrupt_service
+                0x0000000000000000       0xc0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.ap3_gpio_get_pinconfig_bitmasks
+                0x0000000000000000       0x78 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text.ap3_hal_gpio_pinconfig_partial
+                0x0000000000000000      0x2c4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .bss.gpio_pHandlerCtxt
+                0x0000000000000000       0xc8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .bss.gpio_ppfnHandlers
+                0x0000000000000000       0xc8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_12
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_1_5
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_24
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP_6
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_12
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_4
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_8
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_OUTPUT_WITH_READ
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_AM_HAL_GPIO_TRISTATE
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_periph_enabled
+                0x0000000000000000       0x5c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_memory_enable
+                0x0000000000000000       0x98 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_memory_deepsleep_powerdown
+                0x0000000000000000       0x28 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_memory_deepsleep_retain
+                0x0000000000000000       0x2c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text.am_hal_pwrctrl_low_power_init
+                0x0000000000000000      0x16c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .rodata.am_hal_pwrctrl_memory_control
+                0x0000000000000000      0x1b0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_configure
+                0x0000000000000000       0x44 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_status_get
+                0x0000000000000000       0x70 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_enable
+                0x0000000000000000       0x28 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_disable
+                0x0000000000000000       0x28 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_clear
+                0x0000000000000000        0xc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text.am_hal_reset_interrupt_status_get
+                0x0000000000000000       0x14 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .rodata.CSWTCH.18
+                0x0000000000000000       0x10 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .rodata.CSWTCH.19
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_counter_clear
+                0x0000000000000000       0x20 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_compare_delta_set
+                0x0000000000000000       0xac /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_compare_get
+                0x0000000000000000       0x18 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_capture_start
+                0x0000000000000000       0x9c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_capture_stop
+                0x0000000000000000       0x1c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_nvram_set
+                0x0000000000000000        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_nvram_get
+                0x0000000000000000       0x18 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_capture_get
+                0x0000000000000000       0x18 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_int_enable_get
+                0x0000000000000000        0xc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_int_set
+                0x0000000000000000        0xc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text.am_hal_stimer_int_status_get
+                0x0000000000000000       0x18 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_enable
+                0x0000000000000000       0x10 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_disable
+                0x0000000000000000       0x10 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_stacking_enable
+                0x0000000000000000       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_fpu_stacking_disable
+                0x0000000000000000       0x24 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .text.am_hal_sysctrl_aircr_reset
+                0x0000000000000000       0x24 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_deinitialize
+                0x0000000000000000       0x28 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_tx_flush
+                0x0000000000000000       0x50 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_flags_get
+                0x0000000000000000       0x2c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_fifo_read
+                0x0000000000000000       0x68 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_fifo_write
+                0x0000000000000000       0x5c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_disable
+                0x0000000000000000       0x2c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text.am_hal_uart_interrupt_enable_get
+                0x0000000000000000       0x28 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .text          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .data          0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+ .bss           0x0000000000000000        0x0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+flash            0x000000000000c000 0x00000000000f0000 xr
+sram             0x0000000010000000 0x0000000000060000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x000000000000c000     0x3168
+                0x000000000000c000                . = ALIGN (0x4)
+                0x000000000000c000                _stext = .
+ *(.isr_vector)
+ .isr_vector    0x000000000000c000       0xc0 ../gcc/redboard_artemis/bin/startup_gcc.o
+                0x000000000000c000                g_am_pfnVectors
+ *(.ble_patch)
+ .ble_patch     0x000000000000c0c0       0x40 ../gcc/redboard_artemis/bin/startup_gcc.o
+                0x000000000000c0c0                __Patchable
+ *(.text)
+ .text          0x000000000000c100       0x30 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x000000000000c100                __aeabi_uldivmod
+ .text          0x000000000000c130        0x4 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                0x000000000000c130                __aeabi_ldiv0
+                0x000000000000c130                __aeabi_idiv0
+ *(.text*)
+ .text.__NVIC_EnableIRQ
+                0x000000000000c134       0x3c ../gcc/redboard_artemis/bin/main.o
+ .text.__NVIC_DisableIRQ
+                0x000000000000c170       0x48 ../gcc/redboard_artemis/bin/main.o
+ .text.main     0x000000000000c1b8      0x17c ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c1b8                main
+ .text.setup    0x000000000000c334       0x40 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c334                setup
+ .text.unsetup  0x000000000000c374       0x2c ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c374                unsetup
+ .text.detect_baud_rate
+                0x000000000000c3a0      0x280 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c3a0                detect_baud_rate
+ .text.start_uart_bl
+                0x000000000000c620       0xd4 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c620                start_uart_bl
+ .text.enter_bootload
+                0x000000000000c6f4      0x14c ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c6f4                enter_bootload
+ .text.update_from_flash
+                0x000000000000c840       0x54 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c840                update_from_flash
+ .text.handle_frame_packet
+                0x000000000000c894       0xec ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c894                handle_frame_packet
+ .text.app_start
+                0x000000000000c980       0x74 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c980                app_start
+ .text.debug_printf
+                0x000000000000c9f4       0x12 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000c9f4                debug_printf
+ *fill*         0x000000000000ca06        0x2 
+ .text.am_uart_isr
+                0x000000000000ca08       0x70 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000ca08                am_uart_isr
+ .text.am_uart1_isr
+                0x000000000000ca78        0xe ../gcc/redboard_artemis/bin/main.o
+                0x000000000000ca78                am_uart1_isr
+ *fill*         0x000000000000ca86        0x2 
+ .text.am_gpio_isr
+                0x000000000000ca88       0x48 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000ca88                am_gpio_isr
+ .text.am_stimer_isr
+                0x000000000000cad0       0x20 ../gcc/redboard_artemis/bin/main.o
+                0x000000000000cad0                am_stimer_isr
+ .text.am_util_delay_ms
+                0x000000000000caf0       0x3c ../gcc/redboard_artemis/bin/am_util_delay.o
+                0x000000000000caf0                am_util_delay_ms
+ .text.am_util_delay_us
+                0x000000000000cb2c       0x3c ../gcc/redboard_artemis/bin/am_util_delay.o
+                0x000000000000cb2c                am_util_delay_us
+ .text.Reset_Handler
+                0x000000000000cb68       0x84 ../gcc/redboard_artemis/bin/startup_gcc.o
+                0x000000000000cb68                Reset_Handler
+ .text.NMI_Handler
+                0x000000000000cbec        0x8 ../gcc/redboard_artemis/bin/startup_gcc.o
+                0x000000000000cbec                NMI_Handler
+ .text.HardFault_Handler
+                0x000000000000cbf4        0x8 ../gcc/redboard_artemis/bin/startup_gcc.o
+                0x000000000000cbf4                HardFault_Handler
+                0x000000000000cbf4                UsageFault_Handler
+                0x000000000000cbf4                MemManage_Handler
+                0x000000000000cbf4                BusFault_Handler
+ .text.am_default_isr
+                0x000000000000cbfc        0x8 ../gcc/redboard_artemis/bin/startup_gcc.o
+                0x000000000000cbfc                am_default_isr
+                0x000000000000cbfc                am_iomaster4_isr
+                0x000000000000cbfc                SysTick_Handler
+                0x000000000000cbfc                PendSV_Handler
+                0x000000000000cbfc                am_rtc_isr
+                0x000000000000cbfc                am_stimer_cmpr3_isr
+                0x000000000000cbfc                am_adc_isr
+                0x000000000000cbfc                am_iomaster3_isr
+                0x000000000000cbfc                am_clkgen_isr
+                0x000000000000cbfc                am_software0_isr
+                0x000000000000cbfc                am_stimer_cmpr5_isr
+                0x000000000000cbfc                am_iomaster5_isr
+                0x000000000000cbfc                am_pdm0_isr
+                0x000000000000cbfc                am_ctimer_isr
+                0x000000000000cbfc                am_ioslave_acc_isr
+                0x000000000000cbfc                am_mspi0_isr
+                0x000000000000cbfc                am_stimer_cmpr6_isr
+                0x000000000000cbfc                am_iomaster1_isr
+                0x000000000000cbfc                am_brownout_isr
+                0x000000000000cbfc                am_vcomp_isr
+                0x000000000000cbfc                am_stimer_cmpr1_isr
+                0x000000000000cbfc                am_iomaster2_isr
+                0x000000000000cbfc                SVC_Handler
+                0x000000000000cbfc                am_stimer_cmpr2_isr
+                0x000000000000cbfc                am_ioslave_ios_isr
+                0x000000000000cbfc                am_stimer_cmpr7_isr
+                0x000000000000cbfc                am_scard_isr
+                0x000000000000cbfc                am_watchdog_isr
+                0x000000000000cbfc                am_stimer_cmpr0_isr
+                0x000000000000cbfc                am_iomaster0_isr
+                0x000000000000cbfc                am_ble_isr
+                0x000000000000cbfc                am_stimer_cmpr4_isr
+                0x000000000000cbfc                DebugMon_Handler
+ .text.svl_packet_link_read_fn
+                0x000000000000cc04       0x2c ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000cc04                svl_packet_link_read_fn
+ .text.svl_packet_link_write_fn
+                0x000000000000cc30       0x2c ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000cc30                svl_packet_link_write_fn
+ .text.svl_packet_link_avail_fn
+                0x000000000000cc5c       0x2c ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000cc5c                svl_packet_link_avail_fn
+ .text.svl_packet_link_millis_fn
+                0x000000000000cc88       0x20 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000cc88                svl_packet_link_millis_fn
+ .text.svl_packet_send
+                0x000000000000cca8      0x1f0 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000cca8                svl_packet_send
+ .text.svl_packet_wait
+                0x000000000000ce98      0x1b4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000ce98                svl_packet_wait
+ .text.svl_packet_get_uint16_t
+                0x000000000000d04c       0x70 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000d04c                svl_packet_get_uint16_t
+ .text.svl_packet_wait_bytes
+                0x000000000000d0bc       0x8c ../gcc/redboard_artemis/bin/svl_packet.o
+                0x000000000000d0bc                svl_packet_wait_bytes
+ .text.art_svl_ringbuf_init
+                0x000000000000d148       0x42 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+                0x000000000000d148                art_svl_ringbuf_init
+ .text.art_svl_ringbuf_available
+                0x000000000000d18a       0x54 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+                0x000000000000d18a                art_svl_ringbuf_available
+ .text.art_svl_ringbuf_bytes_free
+                0x000000000000d1de       0x58 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+                0x000000000000d1de                art_svl_ringbuf_bytes_free
+ .text.art_svl_ringbuf_write
+                0x000000000000d236       0x5e ../gcc/redboard_artemis/bin/svl_ringbuf.o
+                0x000000000000d236                art_svl_ringbuf_write
+ .text.art_svl_ringbuf_read
+                0x000000000000d294       0x5e ../gcc/redboard_artemis/bin/svl_ringbuf.o
+                0x000000000000d294                art_svl_ringbuf_read
+ .text.svl_uart_read
+                0x000000000000d2f2       0x3c ../gcc/redboard_artemis/bin/svl_uart.o
+                0x000000000000d2f2                svl_uart_read
+ .text.svl_uart_write
+                0x000000000000d32e       0x3e ../gcc/redboard_artemis/bin/svl_uart.o
+                0x000000000000d32e                svl_uart_write
+ .text.svl_uart_write_byte
+                0x000000000000d36c       0x22 ../gcc/redboard_artemis/bin/svl_uart.o
+                0x000000000000d36c                svl_uart_write_byte
+ *fill*         0x000000000000d38e        0x2 
+ .text._fill_ticks
+                0x000000000000d390       0x5c ../gcc/redboard_artemis/bin/svl_utils.o
+                0x000000000000d390                _fill_ticks
+ .text.millis   0x000000000000d3ec       0x28 ../gcc/redboard_artemis/bin/svl_utils.o
+                0x000000000000d3ec                millis
+ .text.enable_burst_mode
+                0x000000000000d414       0x34 ../gcc/redboard_artemis/bin/svl_utils.o
+                0x000000000000d414                enable_burst_mode
+ .text.disable_burst_mode
+                0x000000000000d448       0x2c ../gcc/redboard_artemis/bin/svl_utils.o
+                0x000000000000d448                disable_burst_mode
+ .text.ap3_gpio_enable_interrupts
+                0x000000000000d474       0xc8 ../gcc/redboard_artemis/bin/svl_utils.o
+                0x000000000000d474                ap3_gpio_enable_interrupts
+ .text.memset   0x000000000000d53c       0xa4 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+                0x000000000000d53c                memset
+ .text.__udivmoddi4
+                0x000000000000d5e0      0x2bc /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000000d5e0                __udivmoddi4
+ .text.am_hal_burst_mode_initialize
+                0x000000000000d89c       0x84 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+                0x000000000000d89c                am_hal_burst_mode_initialize
+ .text.am_hal_burst_mode_enable
+                0x000000000000d920       0x60 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+                0x000000000000d920                am_hal_burst_mode_enable
+ .text.am_hal_burst_mode_disable
+                0x000000000000d980       0x58 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+                0x000000000000d980                am_hal_burst_mode_disable
+ .text.am_hal_cachectrl_config
+                0x000000000000d9d8       0x48 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                0x000000000000d9d8                am_hal_cachectrl_config
+ .text.am_hal_cachectrl_enable
+                0x000000000000da20       0x14 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                0x000000000000da20                am_hal_cachectrl_enable
+ .text.am_hal_clkgen_control
+                0x000000000000da34      0x138 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+                0x000000000000da34                am_hal_clkgen_control
+ .text.am_hal_clkgen_status_get
+                0x000000000000db6c       0x3c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+                0x000000000000db6c                am_hal_clkgen_status_get
+ .text.am_hal_flash_page_erase
+                0x000000000000dba8        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000dba8                am_hal_flash_page_erase
+ .text.am_hal_flash_program_main
+                0x000000000000dbb0       0x5c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000dbb0                am_hal_flash_program_main
+ .text.am_hal_flash_delay
+                0x000000000000dc0c       0x20 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000dc0c                am_hal_flash_delay
+ .text.am_hal_flash_delay_status_check
+                0x000000000000dc2c       0x74 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000dc2c                am_hal_flash_delay_status_check
+ .text.am_hal_flash_store_ui32
+                0x000000000000dca0        0xc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x000000000000dca0                am_hal_flash_store_ui32
+ .text.am_hal_gpio_pinconfig
+                0x000000000000dcac      0x280 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000dcac                am_hal_gpio_pinconfig
+ .text.am_hal_gpio_interrupt_enable
+                0x000000000000df2c       0x48 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000df2c                am_hal_gpio_interrupt_enable
+ .text.am_hal_gpio_interrupt_disable
+                0x000000000000df74       0x4c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000df74                am_hal_gpio_interrupt_disable
+ .text.am_hal_gpio_interrupt_clear
+                0x000000000000dfc0       0x3c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000dfc0                am_hal_gpio_interrupt_clear
+ .text.am_hal_interrupt_master_enable
+                0x000000000000dffc        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+                0x000000000000dffc                am_hal_interrupt_master_enable
+ .text.am_hal_interrupt_master_disable
+                0x000000000000e004        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+                0x000000000000e004                am_hal_interrupt_master_disable
+ .text.am_hal_interrupt_master_set
+                0x000000000000e00c        0x8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+                0x000000000000e00c                am_hal_interrupt_master_set
+ .text.am_hal_pwrctrl_periph_enable
+                0x000000000000e014       0x54 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+                0x000000000000e014                am_hal_pwrctrl_periph_enable
+ .text.am_hal_pwrctrl_periph_disable
+                0x000000000000e068       0x58 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+                0x000000000000e068                am_hal_pwrctrl_periph_disable
+ .text.am_hal_pwrctrl_blebuck_trim
+                0x000000000000e0c0       0x50 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+                0x000000000000e0c0                am_hal_pwrctrl_blebuck_trim
+ .text.am_hal_reset_control
+                0x000000000000e110       0x40 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+                0x000000000000e110                am_hal_reset_control
+ .text.am_hal_stimer_config
+                0x000000000000e150       0x14 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+                0x000000000000e150                am_hal_stimer_config
+ .text.am_hal_stimer_counter_get
+                0x000000000000e164        0xc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+                0x000000000000e164                am_hal_stimer_counter_get
+ .text.am_hal_stimer_int_enable
+                0x000000000000e170       0x14 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+                0x000000000000e170                am_hal_stimer_int_enable
+ .text.am_hal_stimer_int_disable
+                0x000000000000e184       0x14 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+                0x000000000000e184                am_hal_stimer_int_disable
+ .text.am_hal_stimer_int_clear
+                0x000000000000e198        0xc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+                0x000000000000e198                am_hal_stimer_int_clear
+ .text.am_hal_sysctrl_sleep
+                0x000000000000e1a4       0x70 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+                0x000000000000e1a4                am_hal_sysctrl_sleep
+ .text.am_hal_uart_initialize
+                0x000000000000e214       0x50 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000e214                am_hal_uart_initialize
+ .text.am_hal_uart_power_control
+                0x000000000000e264       0xf0 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000e264                am_hal_uart_power_control
+ .text.am_hal_uart_configure
+                0x000000000000e354      0x1fc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000e354                am_hal_uart_configure
+ .text.am_hal_uart_transfer
+                0x000000000000e550      0x414 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000e550                am_hal_uart_transfer
+ .text.am_hal_uart_interrupt_service
+                0x000000000000e964      0x12c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000e964                am_hal_uart_interrupt_service
+ .text.am_hal_uart_interrupt_enable
+                0x000000000000ea90       0x28 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000ea90                am_hal_uart_interrupt_enable
+ .text.am_hal_uart_interrupt_clear
+                0x000000000000eab8       0x24 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000eab8                am_hal_uart_interrupt_clear
+ .text.am_hal_uart_interrupt_status_get
+                0x000000000000eadc       0x38 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000eadc                am_hal_uart_interrupt_status_get
+ .text.am_hal_queue_init
+                0x000000000000eb14       0x18 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+                0x000000000000eb14                am_hal_queue_init
+ .text.am_hal_queue_item_add
+                0x000000000000eb2c       0x7c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+                0x000000000000eb2c                am_hal_queue_item_add
+ .text.am_hal_queue_item_get
+                0x000000000000eba8       0x7c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+                0x000000000000eba8                am_hal_queue_item_get
+                0x000000000000ec24                __init_array_start = .
+ *(.init_array*)
+                0x000000000000ec24                __init_array_end = .
+                0x000000000000ec24                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x000000000000ec24      0x30d ../gcc/redboard_artemis/bin/main.o
+ *(.rodata*)
+ *fill*         0x000000000000ef31        0x3 
+ .rodata.am_hal_cachectrl_defaults
+                0x000000000000ef34        0x3 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+                0x000000000000ef34                am_hal_cachectrl_defaults
+ *fill*         0x000000000000ef37        0x1 
+ .rodata.g_AM_HAL_GPIO_DISABLE
+                0x000000000000ef38        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000ef38                g_AM_HAL_GPIO_DISABLE
+ .rodata.g_AM_HAL_GPIO_INPUT_PULLUP
+                0x000000000000ef3c        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+                0x000000000000ef3c                g_AM_HAL_GPIO_INPUT_PULLUP
+ .rodata.g_ui8Bit76Capabilities
+                0x000000000000ef40       0x32 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ *fill*         0x000000000000ef72        0x2 
+ .rodata.g_ui8Inpen
+                0x000000000000ef74       0x32 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ *fill*         0x000000000000efa6        0x2 
+ .rodata.g_ui8NCEtable
+                0x000000000000efa8       0xc8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .rodata.g_ui8nCEpins
+                0x000000000000f070       0x32 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ *fill*         0x000000000000f0a2        0x2 
+ .rodata.am_hal_pwrctrl_peripheral_control
+                0x000000000000f0a4       0xb4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+                0x000000000000f0a4                am_hal_pwrctrl_peripheral_control
+ .rodata.CSWTCH.20
+                0x000000000000f158       0x10 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x000000000000f168                . = ALIGN (0x4)
+                0x000000000000f168                _etext = .
+
+.glue_7         0x000000000000f168        0x0
+ .glue_7        0x000000000000f168        0x0 linker stubs
+
+.glue_7t        0x000000000000f168        0x0
+ .glue_7t       0x000000000000f168        0x0 linker stubs
+
+.vfp11_veneer   0x000000000000f168        0x0
+ .vfp11_veneer  0x000000000000f168        0x0 linker stubs
+
+.v4_bx          0x000000000000f168        0x0
+ .v4_bx         0x000000000000f168        0x0 linker stubs
+
+.iplt           0x000000000000f168        0x0
+ .iplt          0x000000000000f168        0x0 ../gcc/redboard_artemis/bin/main.o
+
+.rel.dyn        0x000000000000f168        0x0
+ .rel.iplt      0x000000000000f168        0x0 ../gcc/redboard_artemis/bin/main.o
+
+.ARM.exidx.text.__udivmoddi4
+                0x000000000000f168        0x8
+ .ARM.exidx.text.__udivmoddi4
+                0x000000000000f168        0x8 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+
+.data           0x0000000010000000      0x20c load address 0x000000000000f170
+                0x0000000010000000                . = ALIGN (0x4)
+                0x0000000010000000                _sdata = .
+ *(.data)
+ *(.data*)
+ .data.CRC_Table
+                0x0000000010000000      0x200 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000000                CRC_Table
+ .data.SRAM_write_ui32
+                0x0000000010000200        0xc /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+                0x0000000010000200                SRAM_write_ui32
+                0x000000001000020c                . = ALIGN (0x4)
+                0x000000001000020c                _edata = .
+                0x000000000000f170                _init_data = LOADADDR (.data)
+
+.igot.plt       0x000000001000020c        0x0 load address 0x000000000000f37c
+ .igot.plt      0x000000001000020c        0x0 ../gcc/redboard_artemis/bin/main.o
+
+.bss            0x0000000010000210      0x92c load address 0x000000000000f37c
+                0x0000000010000210                . = ALIGN (0x4)
+                0x0000000010000210                _sbss = .
+ *(.bss)
+ *(.bss*)
+ .bss.bl_rx_ringbuf
+                0x0000000010000210       0x10 ../gcc/redboard_artemis/bin/main.o
+                0x0000000010000210                bl_rx_ringbuf
+ .bss.hUART_bl  0x0000000010000220        0x4 ../gcc/redboard_artemis/bin/main.o
+                0x0000000010000220                hUART_bl
+ .bss.bl_baud_ticks_index
+                0x0000000010000224        0x1 ../gcc/redboard_artemis/bin/main.o
+                0x0000000010000224                bl_baud_ticks_index
+ *fill*         0x0000000010000225        0x3 
+ .bss.bl_baud_ticks
+                0x0000000010000228       0x14 ../gcc/redboard_artemis/bin/main.o
+                0x0000000010000228                bl_baud_ticks
+ .bss.frame_buffer.0
+                0x000000001000023c      0x800 ../gcc/redboard_artemis/bin/main.o
+ .bss.read_param
+                0x0000000010000a3c        0x4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a3c                read_param
+ .bss.write_param
+                0x0000000010000a40        0x4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a40                write_param
+ .bss.avail_param
+                0x0000000010000a44        0x4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a44                avail_param
+ .bss.read_fn   0x0000000010000a48        0x4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a48                read_fn
+ .bss.write_fn  0x0000000010000a4c        0x4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a4c                write_fn
+ .bss.avail_fn  0x0000000010000a50        0x4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a50                avail_fn
+ .bss.millis_fn
+                0x0000000010000a54        0x4 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a54                millis_fn
+ .bss.CRCL      0x0000000010000a58        0x1 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a58                CRCL
+ .bss.CRCH      0x0000000010000a59        0x1 ../gcc/redboard_artemis/bin/svl_packet.o
+                0x0000000010000a59                CRCH
+ *fill*         0x0000000010000a5a        0x2 
+ .bss.ap3_stimer_overflows
+                0x0000000010000a5c        0x4 ../gcc/redboard_artemis/bin/svl_utils.o
+                0x0000000010000a5c                ap3_stimer_overflows
+ .bss.ticks     0x0000000010000a60        0x8 ../gcc/redboard_artemis/bin/svl_utils.o
+                0x0000000010000a60                ticks
+ .bss.g_am_hal_burst_mode_available
+                0x0000000010000a68        0x1 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+                0x0000000010000a68                g_am_hal_burst_mode_available
+ *fill*         0x0000000010000a69        0x3 
+ .bss.gAmHalResetStatus
+                0x0000000010000a6c        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+                0x0000000010000a6c                gAmHalResetStatus
+ .bss.g_ui32BusWriteFlush
+                0x0000000010000a70        0x4 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ *(COMMON)
+ COMMON         0x0000000010000a74       0xc8 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+                0x0000000010000a74                g_am_hal_uart_states
+                0x0000000010000b3c                . = ALIGN (0x4)
+                0x0000000010000b3c                _ebss = .
+
+.heap           0x0000000010000b3c        0x0 load address 0x000000000000f37c
+                0x0000000010000b3c                . = ALIGN (0x4)
+                0x0000000010000b3c                __end__ = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000010000b3c                _sheap = .
+
+.dmz            0x0000000010000b3c    0x5f4bc
+                0x000000001005fff8                . = ((ORIGIN (sram) + LENGTH (sram)) - 0x8)
+ *fill*         0x0000000010000b3c    0x5f4bc 
+                0x000000001005fff8                . = ALIGN (0x8)
+
+.stack          0x000000001005fff8        0x0
+                0x000000001005fff8                . = ALIGN (0x8)
+ *fill*         0x000000001005fff8        0x0 
+                0x000000001005fff8                _sstack = .
+LOAD ../gcc/redboard_artemis/bin/main.o
+LOAD ../gcc/redboard_artemis/bin/am_util_delay.o
+LOAD ../gcc/redboard_artemis/bin/am_util_stdio.o
+LOAD ../gcc/redboard_artemis/bin/startup_gcc.o
+LOAD ../gcc/redboard_artemis/bin/svl_packet.o
+LOAD ../gcc/redboard_artemis/bin/svl_ringbuf.o
+LOAD ../gcc/redboard_artemis/bin/svl_uart.o
+LOAD ../gcc/redboard_artemis/bin/svl_utils.o
+START GROUP
+LOAD /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /Users/humphrey/Projects/AmbiqSuiteSDK/boards_sfe/redboard_artemis/bsp/gcc/bin/libam_bsp.a
+LOAD /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a
+END GROUP
+START GROUP
+LOAD /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+END GROUP
+OUTPUT(../gcc/redboard_artemis/bin/svl.axf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000     0x9632
+ .debug_info    0x0000000000000000     0x4fc9 ../gcc/redboard_artemis/bin/main.o
+ .debug_info    0x0000000000004fc9      0x1ad ../gcc/redboard_artemis/bin/am_util_delay.o
+ .debug_info    0x0000000000005176      0x18b ../gcc/redboard_artemis/bin/startup_gcc.o
+ .debug_info    0x0000000000005301      0x77e ../gcc/redboard_artemis/bin/svl_packet.o
+ .debug_info    0x0000000000005a7f      0x23a ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .debug_info    0x0000000000005cb9      0x272 ../gcc/redboard_artemis/bin/svl_uart.o
+ .debug_info    0x0000000000005f2b     0x3707 ../gcc/redboard_artemis/bin/svl_utils.o
+
+.debug_abbrev   0x0000000000000000      0xc7f
+ .debug_abbrev  0x0000000000000000      0x3d7 ../gcc/redboard_artemis/bin/main.o
+ .debug_abbrev  0x00000000000003d7       0xf1 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .debug_abbrev  0x00000000000004c8      0x12a ../gcc/redboard_artemis/bin/startup_gcc.o
+ .debug_abbrev  0x00000000000005f2      0x212 ../gcc/redboard_artemis/bin/svl_packet.o
+ .debug_abbrev  0x0000000000000804      0x119 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .debug_abbrev  0x000000000000091d      0x100 ../gcc/redboard_artemis/bin/svl_uart.o
+ .debug_abbrev  0x0000000000000a1d      0x262 ../gcc/redboard_artemis/bin/svl_utils.o
+
+.debug_aranges  0x0000000000000000      0x210
+ .debug_aranges
+                0x0000000000000000       0x98 ../gcc/redboard_artemis/bin/main.o
+ .debug_aranges
+                0x0000000000000098       0x30 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .debug_aranges
+                0x00000000000000c8       0x38 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .debug_aranges
+                0x0000000000000100       0x58 ../gcc/redboard_artemis/bin/svl_packet.o
+ .debug_aranges
+                0x0000000000000158       0x40 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .debug_aranges
+                0x0000000000000198       0x38 ../gcc/redboard_artemis/bin/svl_uart.o
+ .debug_aranges
+                0x00000000000001d0       0x40 ../gcc/redboard_artemis/bin/svl_utils.o
+
+.debug_rnglists
+                0x0000000000000000      0x181
+ .debug_rnglists
+                0x0000000000000000       0x81 ../gcc/redboard_artemis/bin/main.o
+ .debug_rnglists
+                0x0000000000000081       0x1f ../gcc/redboard_artemis/bin/am_util_delay.o
+ .debug_rnglists
+                0x00000000000000a0       0x25 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .debug_rnglists
+                0x00000000000000c5       0x40 ../gcc/redboard_artemis/bin/svl_packet.o
+ .debug_rnglists
+                0x0000000000000105       0x2b ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .debug_rnglists
+                0x0000000000000130       0x25 ../gcc/redboard_artemis/bin/svl_uart.o
+ .debug_rnglists
+                0x0000000000000155       0x2c ../gcc/redboard_artemis/bin/svl_utils.o
+
+.debug_line     0x0000000000000000     0x1977
+ .debug_line    0x0000000000000000      0x854 ../gcc/redboard_artemis/bin/main.o
+ .debug_line    0x0000000000000854      0x1de ../gcc/redboard_artemis/bin/am_util_delay.o
+ .debug_line    0x0000000000000a32      0x1cc ../gcc/redboard_artemis/bin/startup_gcc.o
+ .debug_line    0x0000000000000bfe      0x516 ../gcc/redboard_artemis/bin/svl_packet.o
+ .debug_line    0x0000000000001114      0x2d7 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .debug_line    0x00000000000013eb      0x23a ../gcc/redboard_artemis/bin/svl_uart.o
+ .debug_line    0x0000000000001625      0x352 ../gcc/redboard_artemis/bin/svl_utils.o
+
+.debug_str      0x0000000000000000     0x5181
+ .debug_str     0x0000000000000000     0x311d ../gcc/redboard_artemis/bin/main.o
+                                       0x3269 (size before relaxing)
+ .debug_str     0x000000000000311d      0x10b ../gcc/redboard_artemis/bin/am_util_delay.o
+                                        0x2a7 (size before relaxing)
+ .debug_str     0x0000000000003228       0xf2 ../gcc/redboard_artemis/bin/startup_gcc.o
+                                        0x26b (size before relaxing)
+ .debug_str     0x000000000000331a      0x1a3 ../gcc/redboard_artemis/bin/svl_packet.o
+                                        0x4a9 (size before relaxing)
+ .debug_str     0x00000000000034bd       0x43 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+                                        0x258 (size before relaxing)
+ .debug_str     0x0000000000003500       0xea ../gcc/redboard_artemis/bin/svl_uart.o
+                                        0x2aa (size before relaxing)
+ .debug_str     0x00000000000035ea     0x1b97 ../gcc/redboard_artemis/bin/svl_utils.o
+                                       0x25b3 (size before relaxing)
+
+.comment        0x0000000000000000       0x8c
+ .comment       0x0000000000000000       0x40 ../gcc/redboard_artemis/bin/main.o
+                                         0x41 (size before relaxing)
+ .comment       0x0000000000000040       0x41 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .comment       0x0000000000000040       0x41 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .comment       0x0000000000000040       0x41 ../gcc/redboard_artemis/bin/svl_packet.o
+ .comment       0x0000000000000040       0x41 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .comment       0x0000000000000040       0x41 ../gcc/redboard_artemis/bin/svl_uart.o
+ .comment       0x0000000000000040       0x41 ../gcc/redboard_artemis/bin/svl_utils.o
+ .comment       0x0000000000000040       0x4c /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .comment       0x000000000000008c       0x4d /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+
+.ARM.attributes
+                0x0000000000000000       0x34
+ .ARM.attributes
+                0x0000000000000000       0x34 ../gcc/redboard_artemis/bin/main.o
+ .ARM.attributes
+                0x0000000000000034       0x34 ../gcc/redboard_artemis/bin/am_util_delay.o
+ .ARM.attributes
+                0x0000000000000068       0x34 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .ARM.attributes
+                0x000000000000009c       0x34 ../gcc/redboard_artemis/bin/svl_packet.o
+ .ARM.attributes
+                0x00000000000000d0       0x34 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .ARM.attributes
+                0x0000000000000104       0x34 ../gcc/redboard_artemis/bin/svl_uart.o
+ .ARM.attributes
+                0x0000000000000138       0x34 ../gcc/redboard_artemis/bin/svl_utils.o
+ .ARM.attributes
+                0x000000000000016c       0x34 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000000000001a0       0x22 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000000001c2       0x34 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000000000001f6       0x22 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000218       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_burst.o)
+ .ARM.attributes
+                0x000000000000024c       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_cachectrl.o)
+ .ARM.attributes
+                0x0000000000000280       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_clkgen.o)
+ .ARM.attributes
+                0x00000000000002b4       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_flash.o)
+ .ARM.attributes
+                0x00000000000002e8       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_gpio.o)
+ .ARM.attributes
+                0x000000000000031c       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_interrupt.o)
+ .ARM.attributes
+                0x0000000000000350       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_pwrctrl.o)
+ .ARM.attributes
+                0x0000000000000384       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_reset.o)
+ .ARM.attributes
+                0x00000000000003b8       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_stimer.o)
+ .ARM.attributes
+                0x00000000000003ec       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_sysctrl.o)
+ .ARM.attributes
+                0x0000000000000420       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_uart.o)
+ .ARM.attributes
+                0x0000000000000454       0x34 /Users/humphrey/Projects/AmbiqSuiteSDK/mcu/apollo3/hal/gcc/bin/libam_hal.a(am_hal_queue.o)
+
+.debug_frame    0x0000000000000000      0x71c
+ .debug_frame   0x0000000000000000      0x240 ../gcc/redboard_artemis/bin/main.o
+ .debug_frame   0x0000000000000240       0x7c ../gcc/redboard_artemis/bin/am_util_delay.o
+ .debug_frame   0x00000000000002bc       0x68 ../gcc/redboard_artemis/bin/startup_gcc.o
+ .debug_frame   0x0000000000000324      0x140 ../gcc/redboard_artemis/bin/svl_packet.o
+ .debug_frame   0x0000000000000464       0xd0 ../gcc/redboard_artemis/bin/svl_ringbuf.o
+ .debug_frame   0x0000000000000534       0xa0 ../gcc/redboard_artemis/bin/svl_uart.o
+ .debug_frame   0x00000000000005d4       0xbc ../gcc/redboard_artemis/bin/svl_utils.o
+ .debug_frame   0x0000000000000690       0x2c /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(libc_a-memset.o)
+ .debug_frame   0x00000000000006bc       0x2c /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000006e8       0x34 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_udivmoddi4.o)
+
+.debug_line_str
+                0x0000000000000000       0xde
+ .debug_line_str
+                0x0000000000000000       0xd2 /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x00000000000000d2        0xc /Applications/ArmGNUToolchain/12.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.2.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
+                                         0xd6 (size before relaxing)

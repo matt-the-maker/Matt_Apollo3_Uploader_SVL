@@ -1,0 +1,1 @@
+make BOARDPATH=/Users/humphrey/Projects/AmbiqSuiteSDK/boards_sfe/redboard_artemis COMMONPATH=/Users/humphrey/Projects/AmbiqSuiteSDK/boards_sfe/common SDKPATH=/Users/humphrey/Projects/AmbiqSuiteSDK PYTHON3=python3 PROJECTPATH=..
