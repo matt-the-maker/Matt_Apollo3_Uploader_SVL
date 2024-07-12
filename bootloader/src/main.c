@@ -35,7 +35,10 @@ SOFTWARE.
 Authors:
 Owen Lyke, Nathan Seidle
 
+Updated by Matt Czapar
+
 Modified: Juy 22 2019
+ Updated to include second image bootloader: July 10, 2024
 
 */
 
@@ -62,13 +65,30 @@ Modified: Juy 22 2019
 //*****************************************************************************
 #define SVL_VERSION_NUMBER 0x05
 
+#define DEBUG_LOCATION (0x80032)
+
+uint32_t * debug = (uint32_t*) DEBUG_LOCATION;
+
+void log_debug(uint32_t value, uint32_t index)
+{
+    uint32_t debug_data = value;
+    am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, (uint32_t *)(&debug_data),debug + index, 1);
+};
+
 typedef struct {
     uint32_t magic_number;
     uint32_t length;
     uint32_t version;
     uint32_t ready;
     uint32_t checksum;
-} new_image_header;
+    uint32_t current_state;
+} image_header;
+
+typedef enum flash_update_state {
+    DONE_WITH_FLASH_UPDATE = 0xBEEF0000,
+    UPDATING_FROM_FLASH = 0xBEEFBEEF,
+    UNINITIALIZED = 0xffffffff,
+} flash_update_state_t;
 
 // ****************************************
 //
@@ -81,7 +101,7 @@ typedef struct {
 #define BL_TX_PAD 48                      // TX pad for BL_UART_INST
 #define USERCODE_OFFSET (0xC000 + 0x4000) // location in flash to begin storing user's code (Linker script needs to be adjusted to offset user's flash to this address)
 #define FRAME_BUFFER_SIZE 512             // maximum number of 4-byte words that can be transmitted in a single frame packet
-#define CURRENT_IMAGE_HEADER_LOCATION (USERCODE_OFFSET - sizeof(new_image_header))
+#define CURRENT_IMAGE_HEADER_LOCATION (USERCODE_OFFSET - sizeof(image_header))
 
 #define NEW_IMAGE_HEADER_LOCATION (0x80000)
 
@@ -145,7 +165,7 @@ uint8_t handle_frame_packet(svl_packet_t *packet, uint32_t *p_frame_address, uin
 void app_start(void);
 void debug_printf(char *fmt, ...);
 
-uint8_t update_from_flash(void);
+uint8_t update_from_flash(image_header * new_image);
 
 //*****************************************************************************
 //
@@ -188,15 +208,24 @@ int main(void)
     debug_printf("\n\nArtemis SVL Bootloader - DEBUG\n\n");
 
     baud_valid = detect_baud_rate(&bl_baud); // Detects the baud rate. Returns true if a valid baud rate was found
+    
+    
     if (baud_valid == false)
     {
-        new_image_header * new_image = (new_image_header*)NEW_IMAGE_HEADER_LOCATION;
-        //new_image_header * current_image = (new_image_header*)CURRENT_IMAGE_HEADER_LOCATION;
         
-        if((new_image->ready == 0xbeef) && (new_image->magic_number == 0xbeeeef))
+        //No valid baud rate found.  Double check the flash memory doesn't have a valid payload.  Launch app otherwise
+        image_header * new_image = (image_header*)NEW_IMAGE_HEADER_LOCATION;
+       
+        if((UPDATING_FROM_FLASH == new_image->current_state) || ((new_image->ready == 0x5555beef) && (new_image->magic_number == 0xdeadbeef)) )
         {
-            update_from_flash();
+            uint32_t current_flash_update_state = UPDATING_FROM_FLASH;
+            am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, (uint32_t *)(&current_flash_update_state),&new_image->current_state, 1);
+
+            update_from_flash(new_image);
+            current_flash_update_state = DONE_WITH_FLASH_UPDATE;
+            am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, (uint32_t *)(&current_flash_update_state),&new_image->current_state, 1);
         }
+        
         
         app_start(); // w/o valid baud rate jump t the app
     }
@@ -599,24 +628,58 @@ void enter_bootload(void)
 
 // ****************************************
 //
-// Handle a frame packet
+// Copy firmware from image location 2 to main image location
+// Copies one page at a time
 //
 // ****************************************
-#define FLASH_PAYLOAD_SIZE 512
+#define FLASH_PAYLOAD_SIZE AM_HAL_FLASH_PAGE_SIZE
 
-uint8_t update_from_flash(void)
+uint8_t update_from_flash(image_header * new_image)
 {
-    new_image_header * new_image = (new_image_header*)NEW_IMAGE_HEADER_LOCATION;
-    uint16_t last_page_erased = 0;
+
+    uint32_t length_remaining = new_image->length;
+    uint32_t amount_to_write = 0;
+    uint32_t itr = 0;
     
-    svl_packet_t svl_packet_flash_frame = {CMD_FRAME, (uint8_t *)SECOND_IMAGE_LOCATION, FLASH_PAYLOAD_SIZE, FLASH_PAYLOAD_SIZE};
-    
-    for(int itr = 0; itr < new_image->length; itr= itr + FLASH_PAYLOAD_SIZE)
+    for(itr = 0; (itr < new_image->length) && (itr < (NEW_IMAGE_HEADER_LOCATION - USERCODE_OFFSET)); itr= itr + FLASH_PAYLOAD_SIZE)
     {
-        handle_frame_packet(&svl_packet_flash_frame, (uint32_t*)itr + SECOND_IMAGE_LOCATION, &last_page_erased);
+        log_debug(0x7f, 0);
+        uint32_t offset_address_write = itr + USERCODE_OFFSET;
+        uint32_t offset_address_read = itr + SECOND_IMAGE_LOCATION;
+        
+        //Erase the 8k page for this address
+        uint32_t i32ReturnCode = 0;
+        log_debug(AM_HAL_FLASH_ADDR2INST(offset_address_write), 1);
+        log_debug(AM_HAL_FLASH_ADDR2PAGE(offset_address_write), 2);
+        log_debug(offset_address_write, 3);
+        
+        i32ReturnCode = am_hal_flash_page_erase(AM_HAL_FLASH_PROGRAM_KEY, AM_HAL_FLASH_ADDR2INST(offset_address_write), AM_HAL_FLASH_ADDR2PAGE(offset_address_write));
+        if (i32ReturnCode)
+        {
+            log_debug(i32ReturnCode, 4);
+            return i32ReturnCode;
+        }
+        log_debug(0x00ee00ee, 5);
+        
+        if(length_remaining > FLASH_PAYLOAD_SIZE)
+        {
+            amount_to_write = FLASH_PAYLOAD_SIZE;
+        }
+        else
+        {
+            amount_to_write = length_remaining;
+        }
+        
+        
+        i32ReturnCode = am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, (uint32_t *)offset_address_read, (uint32_t *)offset_address_write, amount_to_write);
+        
+        log_debug(0x33333333, 6);
+        
+        uint32_t current_flash_update_state = i32ReturnCode;
+        am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, (uint32_t *)(&current_flash_update_state),&new_image->checksum, 1);
     }
     
-    new_image_header * new_image = (new_image_header*)NEW_IMAGE_HEADER_LOCATION;
+    //image_header * new_image = (image_header*)NEW_IMAGE_HEADER_LOCATION;
     
     uint32_t data[] = {0x0};
     am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, data, (uint32_t *)(&(new_image->ready)), 1);
@@ -628,6 +691,12 @@ uint8_t update_from_flash(void)
 //
 // Handle a frame packet
 //
+// packet : 
+//      packet->pl_len used for length of write
+//      packet->pl used for
+        
+// p_frame_address : Address of frame to write as referenced from the image zero
+// p_last_page_erased : Last page that was erased to make room for new firmware
 // ****************************************
 uint8_t handle_frame_packet(svl_packet_t *packet, uint32_t *p_frame_address, uint16_t *p_last_page_erased)
 {
@@ -659,13 +728,17 @@ uint8_t handle_frame_packet(svl_packet_t *packet, uint32_t *p_frame_address, uin
         }
     }
 
+    log_debug((uint32_t)(packet->pl), 0);
+    log_debug((uint32_t)(*(p_frame_address) + USERCODE_OFFSET), 1);
+    log_debug(num_words, 2);
+    
     //Record the array
     //debug_printf("Recording %d words (%d bytes) to memory\n", num_words, 4 * num_words);
     i32ReturnCode = am_hal_flash_program_main(AM_HAL_FLASH_PROGRAM_KEY, (uint32_t *)packet->pl, (uint32_t *)(*(p_frame_address) + USERCODE_OFFSET), num_words);
     if (i32ReturnCode)
     {
         debug_printf("FLASH_WRITE error = 0x%x.\n\r", i32ReturnCode);
-        return 1;
+        return i32ReturnCode;
     }
     *(p_frame_address) += num_words * 4;
 
